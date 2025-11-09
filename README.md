@@ -1,148 +1,292 @@
-# 🎓 Student Management System V2MWINTELLIGENCE Student Management System v3.0
+# 🎓 Student Management System V2# 🎓 Student Management System V2MWINTELLIGENCE Student Management System v3.0
 
-==============================================
 
-<div align="center">
 
-  **Now Available in Two Editions:**
+<div align="center">==============================================
 
-![Student Management System](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=F70000&center=true&vCenter=true&random=false&width=500&lines=Student+Management+System;Powered+by+C%2B%2B;Modern+and+Efficient)- 🖥️ **GUI Edition** - Modern desktop application with Dear ImGui (NEW!)
+  
 
-- 💻 **Console Edition** - Professional command-line interface
+![Student Management System](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=F70000&center=true&vCenter=true&random=false&width=500&lines=Student+Management+System;Powered+by+C%2B%2B;Modern+and+Efficient)<div align="center">
+
+
+
+<p align="center">  **Now Available in Two Editions:**
+
+  <img src="https://img.shields.io/badge/C%2B%2B-17-blue?style=for-the-badge&logo=c%2B%2B" alt="C++17"/>
+
+  <img src="https://img.shields.io/badge/Platform-Windows-blue?style=for-the-badge&logo=windows" alt="Windows"/>![Student Management System](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=F70000&center=true&vCenter=true&random=false&width=500&lines=Student+Management+System;Powered+by+C%2B%2B;Modern+and+Efficient)- 🖥️ **GUI Edition** - Modern desktop application with Dear ImGui (NEW!)
+
+  <img src="https://img.shields.io/badge/GUI-Dear%20ImGui-orange?style=for-the-badge" alt="Dear ImGui"/>
+
+  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License"/>- 💻 **Console Edition** - Professional command-line interface
+
+</p>
+
+</div>
 
 </div>
 
 Quick Start - GUI Edition (Recommended)
 
-## 🌟 Features----------------------------------------
+## 📑 Table of Contents
 
-1. **Setup**: `.\start_gui.bat` (downloads libraries and builds)
+- [Features](#-features)## 🌟 Features----------------------------------------
 
-- 🎯 **Dual Interface**: Choose between GUI and CLI versions2. **Run**: `.\student_manager_gui.exe`
+- [Installation](#-installation)
+
+- [Usage](#-usage)1. **Setup**: `.\start_gui.bat` (downloads libraries and builds)
+
+- [Technical Details](#-technical-details)
+
+- [Troubleshooting](#-troubleshooting)- 🎯 **Dual Interface**: Choose between GUI and CLI versions2. **Run**: `.\student_manager_gui.exe`
+
+- [Support](#-support-the-project)
 
 - 📊 **Student Data Management**: Add, edit, delete student records
 
+## 🌟 Features
+
 - 🔍 **Advanced Search**: Find students by various criteriaSee [README_GUI.md](README_GUI.md) for complete GUI documentation.
 
-- 💾 **Auto Backup**: Automatic CSV backup system
+### Core Functionality
 
-- 📈 **Performance**: Built with optimized C++ code---
+| Feature | Description |- 💾 **Auto Backup**: Automatic CSV backup system
 
-- 🎨 **Modern UI**: ImGui-based graphical interface
+|---------|-------------|
 
-Student GPA Manager v3.0 - Console Edition
+| **Student Management** | Add, edit, delete students with auto-generated IDs |- 📈 **Performance**: Built with optimized C++ code---
+
+| **Data Organization** | Sort by name, age, GPA with multiple criteria |
+
+| **Search & Filter** | Advanced search with case-insensitive matching |- 🎨 **Modern UI**: ImGui-based graphical interface
+
+| **Backup System** | Automatic CSV backups with timestamps |
+
+| **Data Analysis** | GPA statistics, distribution analysis |Student GPA Manager v3.0 - Console Edition
+
+| **Export Options** | CSV and RTF report generation |
 
 ## 🚀 Quick Start===========================================
 
+### Interface Options
+
+- 🎨 **Modern GUI Version**
+
+  - ImGui-based graphical interface
+
+  - Intuitive controls and layouts### Prerequisites**Build & Run on Windows (MSYS2 / MinGW-w64 g++)**
+
+  - Real-time updates and filtering
+
+  - Windows OS
+
+- 💻 **Classic CLI Version**
+
+  - Fast keyboard-driven interface- MinGW-w64 with C++17 supportQuick Start
+
+  - ANSI color support
+
+  - ASCII art visualizations- GLFW and ImGui for GUI version-----------
 
 
-### Prerequisites**Build & Run on Windows (MSYS2 / MinGW-w64 g++)**
 
-- Windows OS
+## 🚀 Installation1. **Build**: Terminal → Run Task → `Build (g++)`
 
-- MinGW-w64 with C++17 supportQuick Start
 
-- GLFW and ImGui for GUI version-----------
 
-1. **Build**: Terminal → Run Task → `Build (g++)`
+### Prerequisites### 🔧 Installation2. **Run**: `.\\student_manager.exe` in integrated terminal
 
-### 🔧 Installation2. **Run**: `.\\student_manager.exe` in integrated terminal
+```bash
 
-3. **Build & Run**: Terminal → Run Task → `Build & Run (g++)`
+# 1. Install MSYS2 from https://www.msys2.org/3. **Build & Run**: Terminal → Run Task → `Build & Run (g++)`
 
-1. **Clone the Repository**
 
-```bashFeatures (14 Operations)
+
+# 2. Install required packages1. **Clone the Repository**
+
+pacman -S mingw-w64-x86_64-gcc
+
+pacman -S mingw-w64-x86_64-glfw```bashFeatures (14 Operations)
+
+```
 
 git clone https://github.com/Mwintellegince/STUDENT-MANAGEMENT-SYSTEM-V2.git------------------------
 
-cd STUDENT-MANAGEMENT-SYSTEM-V2| # | Feature | Description |
+### Quick Setup
 
-```|---|---------|-------------|
+```bashcd STUDENT-MANAGEMENT-SYSTEM-V2| # | Feature | Description |
+
+# 1. Clone the repository
+
+git clone https://github.com/Mwintellegince/STUDENT-MANAGEMENT-SYSTEM-V2.git```|---|---------|-------------|
+
+cd STUDENT-MANAGEMENT-SYSTEM-V2
 
 | 1 | Add Student | Create new student with auto-generated unique ID, age, GPA, major |
 
-2. **Setup Environment**| 2 | List Students | Display all students in formatted table (ID, Name, Age, GPA, Major) |
+# 2. Run setup script
+
+./setup_gui.ps1  # For GUI version2. **Setup Environment**| 2 | List Students | Display all students in formatted table (ID, Name, Age, GPA, Major) |
+
+# No setup needed for CLI version
 
    - For GUI Version:| 3 | Search | Find by name or student ID (case-insensitive substring match) |
 
-     ```powershell| 4 | Edit | Modify name, age, GPA, or major of existing student |
+# 3. Build the project
 
-     # Run the setup script| 5 | Delete | Remove student by ID (with confirmation) |
+./build_gui.bat  # For GUI version     ```powershell| 4 | Edit | Modify name, age, GPA, or major of existing student |
 
-     ./setup_gui.ps1| 6 | Sort | By name (A-Z), age, GPA ascending, or GPA descending |
+./build.bat      # For CLI version
 
-     ```| 7 | Statistics | Show count, average GPA, median GPA, GPA/age ranges |
+```     # Run the setup script| 5 | Delete | Remove student by ID (with confirmation) |
+
+
+
+## 💫 Usage     ./setup_gui.ps1| 6 | Sort | By name (A-Z), age, GPA ascending, or GPA descending |
+
+
+
+### GUI Version     ```| 7 | Statistics | Show count, average GPA, median GPA, GPA/age ranges |
+
+![GUI Screenshot](https://via.placeholder.com/800x400?text=GUI+Screenshot)
 
    - For CLI Version:| 8 | Filter by GPA | Range query (min/max GPA with validation) |
 
-     ```powershell| 9 | Save CSV | Export all students to comma-separated file |
+1. Launch: `./start_gui.bat`
 
-     # No additional setup needed| 10 | Load CSV | Import students from CSV with error recovery |
+2. Use the navigation bar at the top     ```powershell| 9 | Save CSV | Export all students to comma-separated file |
 
-     ```| 11 | Export RTF | Generate Word-compatible rich text format report |
+3. Add/Edit students using forms
 
-| 12 | Clear All | Bulk delete with "DELETE" confirmation |
+4. View real-time updates in the main table     # No additional setup needed| 10 | Load CSV | Import students from CSV with error recovery |
+
+
+
+### CLI Version     ```| 11 | Export RTF | Generate Word-compatible rich text format report |
+
+```bash
+
+./student_manager.exe| 12 | Clear All | Bulk delete with "DELETE" confirmation |
+
+```
 
 3. **Build the Project**| 13 | Duplicate Check | Find duplicate names (case-insensitive) with counts |
 
-   - GUI Version:| 14 | GPA Analysis | Visual distribution histogram (ASCII asterisks) |
+#### Available Commands
 
-     ```powershell
+| Key | Action |   - GUI Version:| 14 | GPA Analysis | Visual distribution histogram (ASCII asterisks) |
 
-     ./build_gui.batEnhanced Code Features
+|-----|--------|
+
+| 1-9 | Menu navigation |     ```powershell
+
+| F1 | Help |
+
+| Ctrl+S | Save |     ./build_gui.batEnhanced Code Features
+
+| Esc | Exit current menu |
 
      ```----------------------
 
+## 🛠️ Technical Details
+
    - CLI Version:- **Unique IDs**: Auto-generated from student name (e.g., "john", "john1", "john2")
 
-     ```powershell- **Input Validation**: Age 5-120, GPA 0.0-4.0, non-empty names
+### System Architecture
 
-     ./build.bat- **Robust I/O**: CSV parsing with quoted fields, UTF-8 support
+```mermaid     ```powershell- **Input Validation**: Age 5-120, GPA 0.0-4.0, non-empty names
 
-     ```- **Sorting**: Multiple criteria (name, age, GPA asc/desc)
+graph TD
 
-- **Color Output**: ANSI codes for Windows 10+ (cyan, yellow, green, red, magenta)
+    A[User Interface] --> B[Core Logic]     ./build.bat- **Robust I/O**: CSV parsing with quoted fields, UTF-8 support
 
-4. **Run the Application**- **Case-Insensitive Search**: Works with name and ID fields
+    B --> C[Data Layer]
 
-   - GUI Version:- **Error Handling**: Try-catch for file I/O and CSV parsing
+    C --> D[File System]     ```- **Sorting**: Multiple criteria (name, age, GPA asc/desc)
 
-     ```powershell
+    C --> E[Memory Cache]
 
-     ./start_gui.batBuild Instructions
+```- **Color Output**: ANSI codes for Windows 10+ (cyan, yellow, green, red, magenta)
 
-     ```-------------------
+
+
+### File Structure4. **Run the Application**- **Case-Insensitive Search**: Works with name and ID fields
+
+```
+
+📦 STUDENT-MANAGEMENT-SYSTEM-V2   - GUI Version:- **Error Handling**: Try-catch for file I/O and CSV parsing
+
+ ┣ 📜 source.cpp         # CLI version
+
+ ┣ 📜 source_gui.cpp     # GUI version     ```powershell
+
+ ┣ 📜 students.csv       # Data storage
+
+ ┣ 📂 backup/           # Auto backups     ./start_gui.batBuild Instructions
+
+ ┣ 📂 libs/             # Dependencies
+
+ ┗ 📜 README.md         # Documentation     ```-------------------
+
+```
 
    - CLI Version:- **Compiler**: g++ (MSYS2 mingw64, v15.2.0+)
 
+## ⚠️ Troubleshooting
+
      ```powershell- **Standard**: C++17
 
-     ./student_manager.exe- **Command**: 
+<details>
 
-     ```  ```bash
-
-  g++ -std=c++17 -O2 -pipe source.cpp -o student_manager.exe
-
-## 💫 Usage  ```
+<summary>Common Issues</summary>     ./student_manager.exe- **Command**: 
 
 
 
-### GUI VersionRunning the Program
+| Problem | Solution |     ```  ```bash
 
-<details>-------------------
+|---------|----------|
 
-<summary>Click to expand!</summary>**In VS Code Integrated Terminal:**
+| Build fails | Update MinGW-w64 |  g++ -std=c++17 -O2 -pipe source.cpp -o student_manager.exe
 
-```powershell
+| Missing GLFW | Run setup_gui.ps1 |
 
-1. 🖱️ Launch the application using `start_gui.bat`cd "C:\Users\<YourName>\Documents\New folder"
+| Startup crash | Check students.csv |## 💫 Usage  ```
 
-2. 📝 Use the top menu to navigate between features.\student_manager.exe
 
-3. ➕ Add students using the "Add Student" form```
 
-4. 🔍 Search using the search bar
+</details>
+
+
+
+## ❤️ Support the Project### GUI VersionRunning the Program
+
+
+
+If you find this project helpful, consider buying me a coffee!<details>-------------------
+
+
+
+<a href="https://www.buymeacoffee.com/mwintelligence" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a><summary>Click to expand!</summary>**In VS Code Integrated Terminal:**
+
+
+
+---```powershell
+
+
+
+<div align="center">1. 🖱️ Launch the application using `start_gui.bat`cd "C:\Users\<YourName>\Documents\New folder"
+
+
+
+Made with ❤️ by [Mwintellegince](https://github.com/Mwintellegince)2. 📝 Use the top menu to navigate between features.\student_manager.exe
+
+
+
+![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FMwintellegince%2FSTUDENT-MANAGEMENT-SYSTEM-V2&countColor=%23263759)3. ➕ Add students using the "Add Student" form```
+
+
+
+</div>4. 🔍 Search using the search bar
 
 5. 📊 View all records in the main table**Or use the Build & Run Task (Ctrl+Shift+P):**
 
