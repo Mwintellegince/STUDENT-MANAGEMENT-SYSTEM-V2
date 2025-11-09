@@ -2,6 +2,8 @@
 
 # 🎓 Student Management System Enterprise Edition
 
+![](https://visitor-badge.laobi.icu/badge?page_id=Mwintelligence.STUDENT-MANAGEMENT-SYSTEM-V2)
+
 A professional-grade student management system with both GUI and command-line interfaces, designed for academic institutions to manage student records efficiently.
 
 ![GUI Screenshot](https://raw.githubusercontent.com/Mwintelligence/STUDENT-MANAGEMENT-SYSTEM-V2/main/screenshots/main-interface.png)
@@ -27,7 +29,28 @@ A professional-grade student management system with both GUI and command-line in
 - [Support](#-support)
 - [License](#-license)
 
-## 💻 Installation
+## � Prerequisites
+
+Before you begin, ensure you have the following installed:
+
+- Python 3.8 or higher
+- Git
+- C++ compiler (MinGW-w64 recommended for Windows)
+- Visual Studio Build Tools (for Windows)
+
+### Required Libraries
+```bash
+# Install required Python packages
+pip install -r requirements.txt
+```
+
+### System Requirements
+- Operating System: Windows 10/11 (64-bit)
+- RAM: 4GB minimum, 8GB recommended
+- Storage: 500MB free space
+- Display: 1280x720 minimum resolution
+
+## �💻 Installation
 
 1. Clone the repository:
    ```bash
